@@ -19,8 +19,8 @@ export default function App()
   return (
     <div className="inc">
       <h1>{data}</h1>
-      <button onClick={handleButtonInc} name="Click"> Click </button>
-      <button onClick={handleButtonDec} name="Click"> Click </button>
+      <button onClick={handleButtonInc} name="Click"> Click + </button>
+      <button onClick={handleButtonDec} name="Click"> Click - </button>
     </div>
   );
 }}
